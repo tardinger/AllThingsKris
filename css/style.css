@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  cursor: url('../img/champagne.cur') auto;
+}
+canvas {
+  display: block;
+}
+
+a{
+  position: absolute;
+  top: 90%
+  left: 90%;
+}
+
+#iPhone {
+  position:absolute;
+  left:1600px;
+  top:400px;
+}
+
+#iPhone img {
+  width:150px;
+  height:170px;
+}
+
+#tickets {
+  position:absolute;
+  left:1600px;
+  top:400px;
+}
+
+#tickets img {
+  width:150px;
+  height:170px;
+}
+
+#glasses {
+  position:absolute;
+  left:1400px;
+  top:500px;
+}
+
+#glasses img {
+  width: 170px;
+  height:200px;
+}
+
+#champagne {
+  position:absolute;
+  left:1600px;
+  top:700px;
+}
+
+#champagne img {
+  width:80px;
+  height:250px;
+}

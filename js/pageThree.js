@@ -53,7 +53,7 @@ function draw() {
   line(0, 0, 150, 0);
 
   if (mouseX > 1200 && !linkIsMade){
-    let link = createA('pagethree.html', '<img src="img/glasses.png"/>')
+    let link = createA('pagefour.html', '<img src="img/glasses.png"/>')
     link.id('glasses');
     linkIsMade = true;
   }  

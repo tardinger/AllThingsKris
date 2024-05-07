@@ -59,6 +59,9 @@ a{
 
 #lastlink {
   position:absolute;
-  left:1600px;
+  left:900px;
   top:700px;
+  text-decoration: none;
+  color: #f8d86d;
+  font-size: 20px;
 }

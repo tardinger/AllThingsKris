@@ -1,4 +1,5 @@
 var champagne;
+var linkIsMade = false;
 
 function preload(){
   champagne = loadImage('img/champagne.png');
@@ -22,10 +23,14 @@ function draw() {
   noStroke();
   let hue = map(mouseX, 0, width, 0, 360);
 
-  
-  // set the diameter of the circle based on the distance
-  // between the previous mouse points and current mouse points
   diameter = dist(mouseX, mouseY, pmouseX, pmouseY);
     
   ellipse(mouseX, mouseY, diameter);
+
+  if (mouseX > 1200 && !linkIsMade){
+    let link = createA('pagefive.html', 'click here')
+    link.id('lastlink');
+    linkIsMade = true;
+  }  
+
 }

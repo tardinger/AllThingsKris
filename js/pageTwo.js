@@ -39,7 +39,7 @@ function draw() {
     text('On the way to see the Mona Lisa in the Louvre with my daughter, Kimberly.',width/2,60);
   }
   
-  if (mouseX > 1200 && !linkIsMade){
+  if (mouseX > 1450 && !linkIsMade){
     let link = createA('pagethree.html', '<img src="img/tickets.png"/>');
     link.id('tickets');
     linkIsMade = true;

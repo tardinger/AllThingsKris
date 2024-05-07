@@ -56,3 +56,9 @@ a{
   width:80px;
   height:250px;
 }
+
+#lastlink {
+  position:absolute;
+  left:1600px;
+  top:700px;
+}

@@ -33,14 +33,9 @@ function draw() {
   fill(241, 100, 79);
   text("Screaming through the streets of Paris in a chauffeur-driven Mercedes ", width/2, 750);
   
-  if (mouseX > 1400){
-    image(monaLisa, 1020,330,330,390);
-    fill(220);
-    text('On the way to see the Mona Lisa in the Louvre with my daughter, Kimberly.',width/2,60);
-  }
   
   if (mouseX > 1450 && !linkIsMade){
-    let link = createA('pagethree.html', '<img src="img/tickets.png"/>');
+    let link = createA('monaLisa.html', '<img src="img/tickets.png"/>');
     link.id('tickets');
     linkIsMade = true;
   }  

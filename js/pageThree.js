@@ -34,10 +34,10 @@ function draw() {
   image(cloudTwo, 1230, 240, 300, 150);
   image(cloudThree, 730, 740, 300, 150);
   
-  textSize(30);
+  textSize(25);
   noStroke();
   fill(360);
-  textFont('rubikBubbles');
+  textFont(rubikBubbles);
   textAlign(LEFT);
   
   
@@ -49,8 +49,9 @@ function draw() {
   translate(10, 300);
   // Draw the letter to the screen
   text(newString.substring(0, revealText), width/400, height/2);
-  image(privateJet, mouseX,mouseY, 500, 320);   
+  // image(privateJet, mouseX,mouseY, 500, 320);   
   line(0, 0, 150, 0);
+  cursor('img/plane.png');
 
   if (mouseX > 1200 && !linkIsMade){
     let link = createA('pagefour.html', '<img src="img/glasses.png"/>')

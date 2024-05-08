@@ -33,4 +33,6 @@ function draw() {
     linkIsMade = true;
   }  
 
+  // image(champagne,mouseX,mouseY,50,200);
+  cursor('img/champagne-cursor.png')
 }

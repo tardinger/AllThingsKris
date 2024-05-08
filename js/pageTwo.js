@@ -1,16 +1,17 @@
 var eiffelTower;
 var mercedes;
-var monaLise;
+var arc;
 var mainFont;
 var mappedXPosition;
 var tickets;
 var linkIsMade = false;
 
 function preload(){
-  eiffelTower = loadImage('img/eiffelTower1.png');
+  eiffelTower = loadImage('img/eiffelTower.png');
   mercedes = loadImage('img/mercedes.png');
   monaLisa = loadImage('img/monaLisa.jpg');
   tickets = loadImage('img/tickets.png');
+  arc = loadImage('img/arc.png');
   mainFont = loadFont('img/JacquesFrancois-Regular.ttf');
 }
 
@@ -24,8 +25,8 @@ function setup() {
 
 function draw() {
   background(241, 100, 79);
-  image(eiffelTower, width/3, height/2.25, 650, 650);
-  
+  image(eiffelTower, width/2, height/2.25, 650, 1350);
+  image(arc, width/3.5, height/2.25, 650, 1050);
   map(mappedXPosition, 0, width, 50, 100);
   image(mercedes, mouseX, 730, 470, 400)
   
@@ -33,10 +34,9 @@ function draw() {
   fill(241, 100, 79);
   text("Screaming through the streets of Paris in a chauffeur-driven Mercedes ", width/2, 750);
   
-  
   if (mouseX > 1450 && !linkIsMade){
-    let link = createA('monaLisa.html', '<img src="img/tickets.png"/>');
-    link.id('tickets');
+    let link = createA('monaLisa.html', '<img src="img/lourve.png"/>');
+    link.id('lourve');
     linkIsMade = true;
   }  
 

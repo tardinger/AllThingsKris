@@ -1,7 +1,3 @@
-/* html {
-  cursor: url('../img/champagne.png'), auto;
-} */
-
 body {
   margin: 0;
   padding: 0;
@@ -29,8 +25,8 @@ a{
 
 #tickets {
   position:absolute;
-  left:1400px;
-  top:400px;
+  left:100px;
+  top:700px;
 }
 
 #tickets img {
@@ -67,4 +63,14 @@ a{
   text-decoration: none;
   color: #f8d86d;
   font-size: 20px;
+}
+#lourve {
+  position:absolute;
+  left:1100px;
+  top:170px;
+}
+
+#lourve img {
+  width:550px;
+  height:470px;
 }
